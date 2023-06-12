@@ -1,0 +1,277 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+/* img.attachment-shop_catalog.size-shop_catalog.wp-post-image.ls-is-cached.lazyloaded {
+    height: 284px!important;
+} */
+.fusion-body .fusion-menu-element-wrapper[data-count="0"] > .avada-menu-mobile-menu-trigger {
+    color: #000!important;
+
+}
+.bestseller_img .fusion-carousel .fusion-carousel-item img{
+	width : 100% !important;
+	height : auto !important; 
+}
+.bestseller_img  .fusion-carousel-meta{
+	font-family : Montserrat ;
+	font-size : 11.86px ;
+	font-weight : 500 ;
+	line-height : 14.45px ;
+	color : #000000 ;
+	text-transform: uppercase;
+}
+.categories_img .fusion-imageframe  img {
+    width: 396px;
+    height : 594px ;
+    vertical-align: top;
+    box-shadow: none!important;
+}
+
+.form-btn{
+	background-color : #fff !important; 
+	margin-bottom : 40px ;
+	width : 94% !important;
+}
+
+.fusion-carousel-title-below-image .fusion-carousel-meta .price .amount{
+	color : #000000 !important;
+	font-family : Old Standard TT ;
+	font-size : 11.86px ;
+	font-weight : 400 ;
+	line-height : 14.65px ;
+	
+}
+span.woocommerce-Price-amount.amount { 
+	color : #000000 !important;
+	font-family : Old Standard TT ;
+	font-size : 11.86px ;
+	font-weight : 400 ;
+	line-height : 14.65px ;
+
+}
+.brand_img{
+	z-index: 999!important;
+	margin-top: -30px!important;
+
+}
+.fusion-open-nav-submenu{
+	display : none!important;
+}
+#menu-item-4538 .menu-text{
+	color : #DD1A1A ;
+}
+a .fusion-background-highlight : hover{
+	color : #000 ;
+}
+.fusion-menu-element-wrapper>.avada-menu-mobile-menu-trigger.no-text .collapsed-nav-icon{
+	color : #000000!important ;
+}
+.custom_product_section li.product{
+	text-align:center!important ;
+	
+}
+.fusion-woo-product-design-clean .products .product .product-title, .fusion-woo-product-design-clean .slides .product .product-title{
+	font-style:normal!important ;
+}
+.category_page_custom h2{
+	font-size:24px!important ;
+	text-align:center!important ;
+}
+
+
+.category_page_custom mark.count {
+    display: none;
+} 
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next , .fusion-nav-prev {
+	top: 27%!important;
+}
+@media screen and (max-width: 1222px){
+    ul#menu-main-menu li a {
+        font-size: 13px;
+    }
+}
+
+.fusion-menu-element-wrapper .fusion-menu-element-list{
+    flex-wrap : unset!important;
+}
+div#tab-reviews {
+    font-family: Montserrat!important;
+	font-style:normal!important ;
+}
+h2.woocommerce-Reviews-title.fusion-responsive-typography-calculated {
+    font-family: 'Montserrat'!important;
+    font-style: normal!important;
+}
+#menu-item-3104 ul.sub-menu.avada-custom-menu-item-contents{
+	width : 200px ;
+}
+.fusion-menu-login-box-register{
+	color : #f1dce5 !important;
+}
+a .fusion-menu-login-box-register:hover{
+   color : #7f220b ;
+}
+.awb-attribute-type-select form.woocommerce-widget-layered-nav-dropdown{
+	margin-top : -25px !important;
+}
+/*---------brand listing page----------*/
+.select2-container--default .select2-dropdown .select2-search input{
+	background-color : #fff !important; 
+}
+ .fusion-clean-product-image-wrapper {
+    text-align: center;
+}
+
+.small_banner_img{
+	   background-size: contain !important;
+	   min-height : 295px !important;
+	}
+.fusion-search-field.search-field {
+    width: 100px!important;
+}
+
+.fusion-menu-element-wrapper .searchform .fusion-search-field ,.fusion-menu-element-wrapper .searchform .search-field {
+    width: 100px !important;
+}
+.page-id-2381 .background.background-image {
+    margin-top: 46px !important;
+}
+.page-id-2382 .background.background-image {
+    margin-top: 46px !important;
+}
+.page-id-2383 .background.background-image {
+    margin-top: 46px !important;
+}
+.woo-tabs-horizontal .woocommerce-tabs > .tabs{
+	border: solid 1px #999999 !important;
+}
+.woo-tabs-horizontal .woocommerce-tabs>.tabs .active{
+	border: solid 1px #999999 !important;
+}
+
+/* body #wrapper h2.woocommerce-loop-category__title{
+	line-height : 29.26px !important;
+} */
+.woocommerce.columns-1 ul.products.clearfix.products-1 li h2{ font-family :Montserrat!important; font-size :12px !important; font-weight :400 !important; line-height: 5px !important; margin-left: -20px; }
+/*--------------widget of category page----------------*/
+
+.woocommerce.columns-1 ul.products.clearfix.products-1 li a img {    display: none;}
+.fusion-widget-area .product-category mark { display: none; }
+/*--------------widget of designer page hide img----------------*/
+div#berocket_product_brand_widget-3 a img {  display: none; }
+div#berocket_product_brand_widget-3  span{ font-family :Montserrat!important; font-size :12px !important; font-weight :400 !important; line-height: 18px !important; text-align : left; margin-left: -5px; }
+
+
+/*------------------designer page---------------------*/
+/* .heading h3 { display: none; } */
+span.select2.select2-container.select2-container--default.select2-container--focus, span.select2.select2-container.select2-container--default {    margin-top: 30px;}
+.br_brand_count{ display : none ; }
+
+/*------------------Remove order arrow from category page (sort option)---------------------*/
+li.asc {
+    display: none;
+}
+/*----------------hide quantity from product details page-----------------------*/
+.product-template-default .quantity.buttons_added {
+     display: none !important; 
+}
+.woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-disabled {
+	margin-top: 40px;
+}
+.prod-pg-tab .woocommerce-tabs{
+	padding-top: 40px !important;
+}
+
+/*-------------------Arrow color of categories pages-----------------------------*/
+.awb-woo-filters .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-top-color: #000!important;
+}
+.awb-woo-filters .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{
+	 border-bottom-color: #000!important;
+}
+/*----------------Remove search box from dropdown of color and size filter--------------------*/
+span.select2-search.select2-search--dropdown {
+    display: none;
+}
+
+span.price{
+	display: block !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+/*--------------Remove emplty space title bar of category pages--------------*/
+
+@media only screen and (max-width: 640px){ section.avada-page-titlebar-wrapper{  display : none ;} .order-dropdown .current-li{ font-size:10px !important; } .order-dropdown .current-li {    padding: 0 20px 0 13px !important;} .orderby-order-container {    display: block !important; } }
+
+@media only screen and (max-width: 800px){ 
+	#wrapper .order-dropdown.orderby { min-width: 174px; } #wrapper .order-dropdown.sort-count {     min-width: 150px !important; } #wrapper .order-dropdown.orderby {    min-width: 174px;} }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+ 		div#tab-additional_information , #tab-reviews {
+		   border: solid 1px #999999 !important;
+		}
+		li#tab-title-reviews {
+		   width: 100%;
+	    }
+	    li#tab-title-additional_information {
+			width: 100%;
+		}
+} 
+@media screen and (min-width: 745px) and (max-width: 995px){
+	.onsale {
+		left: 80px !important;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 746px){
+	.onsale {
+		left: 185px !important;
+	}
+}
+@media screen and (min-width: 312px) and (max-width: 450px){
+	.onsale {
+		 left: 80px !important;
+	}
+}
+@media screen and (min-width: 451px) and (max-width: 600px){
+	.onsale {
+		left: 160px !important;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 1024px){
+	.small_banner_img{
+		margin-top : 51px !important;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1232px){
+  .large_desktop{
+     background-size: contain !important;
+  }
+  .banner_text{
+     font-size : 100px !important;
+  }
+}
+.woocommerce-Price-amount .amount{
+	color : #000 ;
+}
+a.fusion-button.button-flat.fusion-button-default-size.button-custom.button-1.fusion-button-default-span.fusion-button-default-type.banner-btn {
+    margin-left: 5px;
+}
+p.stars a.active, p.stars a:hover {
+    background: rgb(0 0 0 / 22%) !important;
+}
+
+@media screen and (max-width: 675px){
+	.banner_textt{
+		margin-left : -10px ; 
+    }
+}
+.test123455{
+	color:#000;
+}
+
